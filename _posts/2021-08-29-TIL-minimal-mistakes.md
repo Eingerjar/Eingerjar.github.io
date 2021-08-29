@@ -5,4 +5,25 @@ categories: TIL
 tags: Gitbub blog
 ---
 
-hello
+# Minima-mistakes 시작하기
+
+minimal mistakes를 사용해 github에 블로그를 호스팅하는 방법입니다.
+
+## 사전에 알아야할 지식
+
+- Ruby
+- [Bundler](https://bundler.io)
+- [Jekyll](https://jekyllrb.com)
+
+### Bundler
+
+Bundler는 ruby 프로젝트의 일정한 환경관리를 제공합니다. 필요한 gems과 버전을 설치 및 관리합니다.
+간단하게 블로그를 호스팅하기 전에 필요한 설치파일를 관리한다고 생각하면 될 것 같습니다.
+
+minimal mistakes는 Gemfile이 준비 되어 있어 bundle을 사용하여 실행시키면 됩니다.
+
+```
+bundle gem NAME [OPTIONS]
+```
+
+### Jekyll
