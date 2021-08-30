@@ -23,7 +23,16 @@ Bundler는 ruby 프로젝트의 일정한 환경관리를 제공합니다. 필�
 minimal mistakes는 Gemfile이 준비 되어 있어 bundle을 사용하여 실행시키면 됩니다.
 
 ```
-bundle gem NAME [OPTIONS]
+bundle exec [OPTIONS]
 ```
 
 ### Jekyll
+
+Jekyll는 정적인 사이트 생서기입니다. markup 언어로 쓰여진 텍스트와 layout들을 사용하여 정적인 웹사이트를 만들어줍니다.
+
+```
+jekyll new NAME
+```
+
+을 통해 바로 시작할 수 있습니다. minimal-mistake는 jekyll로 만들어 졌기 때문에 원하는 기능을 추가 하고 싶을 때는
+jekyll의 공식 문서를 참고하면 됩니다.
