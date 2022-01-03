@@ -14,7 +14,7 @@ tags: programmers queue level2
 프린터 문제는 max_value를 정의하고 먼저 큐에서 나온것이 우선순위가 max_value 보다
 낮으면 뒤로 다시 넣어주는 방식으로 구현 하였습니다.
 
-````python
+```python
 def solution(priorities, location):
     answer = 0
     queue = [i for i in range(len(priorities))]
@@ -36,5 +36,4 @@ def solution(priorities, location):
                 answer += 1
 
     return answer
-    ```
-````
+```
