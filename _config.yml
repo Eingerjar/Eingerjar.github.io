@@ -116,8 +116,8 @@ tag_archive:
   path: /tags/
 # Analytics
 analytics:
-provider: "google-gtag"
-# false (default), "google", "google-universal", "google-gtag", "custom"
-google:
-tracking_id: "G-0BMP3ZX2VE"
-anonymize_ip: # true, false (default)
+  provider: "google-gtag"
+  # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "G-0BMP3ZX2VE"
+    anonymize_ip: # true, false (default)
