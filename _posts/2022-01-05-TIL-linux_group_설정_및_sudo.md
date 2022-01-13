@@ -62,7 +62,7 @@ groups
 그룹 구성원 확인
 
 ```bash
-cat /etc/group | [groupname]
+cat /etc/group | grep [groupname]
 ```
 
 ## sudo 설정

@@ -23,7 +23,7 @@ crontab -e
 
 위와 같은 명령어를 통해 crontab을 편집할 수 있습니다. 다만 crontab은 각각의 유저 및 root 모두 달리 설정할 수 점에 유의 해서 작성하여야 합니다.<br>
 
-[빠르게 crontab 작성하기](crontab.guru/)
+[빠르게 crontab 작성하기](https://crontab.guru)
 
 crontable의 형식은 다섯자리로 이루어져 있으며 각각의 자리는 시간단위를 의미합니다.
 
